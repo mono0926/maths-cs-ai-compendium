@@ -1,8 +1,14 @@
 # Vector Spaces
 
-- Think of a Vector Space as a specific kind of playground where mathematical objects live.
+- Think of a Vector Space as a specific kind of playground where mathematical objects live, and each object is called a **vector**. 
 
-- Each object is called a **vector**. 
+- For geometric intuition in machine learning (ML), we will always think of vectors as a point in Euclidean space, represented by it's coordinates. 
+
+- The vector $\mathbf{a}$ (denoted mathematically as lowercase letters in bold) has $n$ coordinates, each representing a position along an axis.
+
+$$\mathbf{a} = [a_1, a_2, a_3]$$
+
+![A vector a = (3, 2, 4) plotted in 3D space with x, y, z axes](../images/vector_3d.svg)
 
 - The vectors in the vector space live under a very specific, unbreakable set of rules:
 
@@ -17,14 +23,6 @@
     You can stretch it, shrink it, or reverse it.
     If vector A is "walk 3 steps forward," scaling it by 2 makes it "walk 6 steps forward."
     Scaling it by -1 flips it entirely to "walk 3 steps backward."
-
-- For geometric intuition in machine learning (ML), we will always think of vectors as a point in Euclidean space, represented by it's coordinates. 
-
-- The vector $\mathbf{a}$ (denoted mathematically as lowercase letters in bold) has $n$ coordinates, each representing a position along an axis.
-
-$$\mathbf{a} = [a_1, a_2, a_3]$$
-
-![A vector a = (3, 2, 4) plotted in 3D space with x, y, z axes](../images/vector_3d.svg)
 
 - The **dimension** of a vector space is the number of independent directions it contains. $\mathbb{R}^2$ is 2-dimensional (needs 2 coordinates), while $\mathbf{a}$ above lives in $\mathbb{R}^3$.
 
