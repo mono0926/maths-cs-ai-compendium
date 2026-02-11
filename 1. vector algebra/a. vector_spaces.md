@@ -28,17 +28,21 @@ $$\mathbf{a} = [a_1, a_2, a_3]$$
 
 - The **dimension** of a vector space is the number of independent directions it contains. $\mathbb{R}^2$ is 2-dimensional (needs 2 coordinates), while $\mathbf{a}$ above lives in $\mathbb{R}^3$.
 
-- We can for instance represent any object, say, a human, as a vector, where $h_1$ = height in cm, $h_2$ = weight in kg, $h_3$ = age, $h_4$ = waist size in cm.
+- We can for instance represent any object, say, a human, as a vector, where $h_1$ = height in cm, $h_2$ = weight in kg, $h_3$ = age.
 
-$$\mathbf{h} = [185, 75, 30, 44]$$
+$$\mathbf{h} = [185, 75, 30]$$
 
-- We have now created a vector space with a vector representing a human, and we can represent multiple humans. 
+- We have now created a vector space with a vector representing a human.
 
-- Notice how this becomes hard to visualise at dimension = 4. Well in in ML, it gets a lot bigger...a lot!
+- We can represent multiple humans, and see how close or apart they are!
 
-- For instance, we can add more features, creating a rich representation of a human, often called feature vectors in ML.
+![Three humans as vectors: Alice and Carol are close, Alice and Bob are far apart](../images/human_vectors.svg)
+
+- We can add more features, creating a rich representation of a human, often called feature vectors in ML.
 
 - The more unique and meaningful features you have, the more descriptive the feature vector is, an important factor to remember. 
+
+- Beyond 3 dimensions, vectors become very difficult to visually inspect, inspiring a field of mathematics called **Linear Algebra**.
 
 - Now, **Linear algebra** is the study of vectors, vector spaces and mappings between vectors.
 
@@ -89,5 +93,3 @@ $$\mathbf{h} = [185, 75, 30, 44]$$
 - **Associativity**: For any scalars $c$, $d$ and vector $\mathbf{v}$: $(cd)\mathbf{v} = c(d\mathbf{v})$
 
 - **Identity Element**: For any vector $\mathbf{v}$: $1\mathbf{v} = \mathbf{v}$, where $1$ is the multiplicative identity in the field of scalars.
-
-- **What is NOT a vector space**: The set of all vectors in $\mathbb{R}^2$ where $x_1 > 0$ is not a vector space. It fails closure: scaling $\mathbf{v} = (3, 1)$ by $-1$ gives $(-3, -1)$, which has $x_1 < 0$ and leaves the set. A valid vector space must survive every addition and every scaling without exception.
