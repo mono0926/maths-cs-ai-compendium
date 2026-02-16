@@ -1,7 +1,7 @@
-# Title: Maths + Computing + AI 
-# Author: Henry Ndubuaku 
+## Title: Maths + Computing + AI 
+## Author: Henry Ndubuaku 
 
-Most textbooks are written to impress, not to teach. They bury good ideas under dense notation, skip the intuition, and assume you already know half the material. Books also easily get outdated, especially in a fast-moving field like AI. I learn by writing things down and reasoning through them until they actually click. Over the past 5 years working in AI/ML, I filled notebooks with the kind of explanations I wished someone had given me, intuition first, real-world context, no hand-waving. A few friends used these notes to prep for interviews at DeepMind, OpenAI, and Nvidia. They all got in. So here they are. This is an open, unconventional textbook covering maths, computing, and artificial intelligence from the ground up. No prerequisites beyond curiosity, but ofc you should be able to grasp maths when explained. Built for people who want to deeply understand the stuff, not just survive an exam. 
+Most textbooks bury good ideas under dense notation, skip the intuition, assume you already know half the material, and quickly get outdated in fast-moving fields like AI. Over the past 5 years working in AI/ML, I filled notebooks with intuition first, real-world context, no hand-waving explanations of maths, computing and AI concepts. In 2025, a few friends used these notes to prep for interviews at DeepMind, OpenAI, Nvidia etc. They all got in and currently perform well in their roles. So I'm sharing to everyone. This is an open, unconventional textbook covering maths, computing, and artificial intelligence from the ground up. Written for curious practitioners who want to deeply understand the stuff, not just survive an exam/interview. 
 
 | # | Chapter | Summary | Status |
 |---|---------|---------|--------|
