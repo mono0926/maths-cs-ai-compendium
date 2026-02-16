@@ -19,8 +19,8 @@ Over the past 7 years working in AI/ML, I filled notebooks with intuition first,
 | 07 | Computational Linguistics | syntax, semantics, pragmatics, NLP, language models, RNNs, CNNs, attention, transformers, text diffusion, text OCR, MoE | Coming |
 | 08 | Computer Vision | image processing, object detection, segmentation, video processing, SLAM, CNNs, vision transformers, diffusion, flow matching, VR/AR | Coming |
 | 09 | Audio & Speech | DSP, ASR, TTS, voice & acoustic activity detection, diarization, source separation, active noise cancelation, wavenet, conformer| Coming |
-| 10 | Multimodal Learning | fusion strategies, contreastiv learning, VLMs, image tokenizer, video audio co-generation | Coming |
-| 11 | Autonomous Systems | perception, robot learning, VLAs, self-driving cars | Coming |
+| 10 | Multimodal Learning | fusion strategies, contrastive learning, VLMs, image tokenizer, video audio co-generation | Coming |
+| 11 | Autonomous Systems | perception, robot learning, VLAs, self-driving cars, space robots | Coming |
 | 12 | Computing & OS | discreet maths, computer architecture, operating systems, RAM, concurrency, parallelism, programming languages | Coming |
 | 13 | Data Structures & Algorithms | arrays, trees, graph, search, sorting, hashmaps | Coming |
 | 14 | SIMD & GPU Programming | ARM & NEON, X86 chips, RISC ships, GPUs, TPUs, triton, CUDA, Vulkan | Coming |
